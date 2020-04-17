@@ -1,0 +1,181 @@
+header {
+    border-bottom: 2px solid lightgray;
+    box-shadow: 0 0 5px lightgray;
+}
+.inner {
+    width: 980px;
+    margin: 0 auto;
+}
+header .inner {
+    height: 60px;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.main-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.main-group .logo img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.left_menu {
+    float: left;
+}
+.main-group .main_menu {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    width: 200px;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+}
+.main-group .main_menu li {
+    display: flex;
+}
+.main-group .main_menu li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+.main-group .main_menu li a:hover {
+    color: lightblue;
+}
+.sub_group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.right_menu {
+    float: right;
+}
+.sub_group .sub_menu {
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px;
+    width: 200px;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.sub_group .sub_menu li {
+    display: flex;
+}
+.sub_group .sub_menu li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+}
+.sub_group .sub_menu li a:hover {
+    color: lightblue;
+}
+.sub_group .Input_text {
+    margin-right: 20px;
+}
+.sub_group .Input_text .input_box {
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+}
+.sub_group .btn {
+    display: flex;
+}
+.sub_group .btn a {
+    text-decoration: none;
+    color: white;
+}
+.sub_group .btn1 {
+    margin-right: 10px;
+    border: 1px solid black;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px gray;
+}
+.sub_group .btn2 {
+    border: 1px solid black;
+    background-color: green;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 3px 3px 5px gray;
+}
+
+
+.visual--section {
+    background-image: url("img/infinite-loop-01.jpg");
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    
+}
+.visual--section .inner {
+    width: 980px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 160px 0;
+}
+.visual--section .summary {
+    padding-right: 90px;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.visual--section .title {
+    color: #FFF;
+    font-size: 54px;
+    margin-bottom: 30px;
+}
+.visual--section .description {
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 100;
+}
+#basic__form {
+    width: 340px;
+    margin-top: 50px;
+}
+#basic__form .inputbox {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 0;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 5px black;
+}
+#basic__form .btn {
+    width: 100%;
+    height: 62px;
+    border: 1px solid black;
+    background-color: green;
+    box-shadow: 3px 3px 5px black;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+}
+#basic__form li p {
+    color: lightgray;
+    font-weight: 100;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 5px;
+}
+#basic__form li {
+    margin-bottom: 10px;
+}
+#basic__form li:last-child {
+    margin-bottom: 0;
+}

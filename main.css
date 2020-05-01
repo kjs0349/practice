@@ -179,3 +179,75 @@ header .inner {
 #basic__form li:last-child {
     margin-bottom: 0;
 }
+
+.section--feature {
+    padding-top: 100px;
+}
+.section--feature .script {
+    width: 880px;
+    margin: 0 auto;
+}
+.section--feature .script .script__title {
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section--feature .script .script__description {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: lightslategray;
+    line-height: 1.2;
+    text-align: center;
+}
+.section--feature .video {
+    max-width: 880px;
+    margin: 50px auto;
+}
+.section--feature .video .video-ratio {
+    height: 0;
+    padding-top: 56.25%;
+    position: relative;
+}
+.section--feature .video .video-ratio iframe {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.section--feature .tiles {
+    border-top: 1px solid rgb(202, 198, 198);
+    border-bottom: 1px solid rgb(202, 198, 198);
+}
+.section--feature .tiles ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    
+}
+.section--feature .tiles ul li {
+    border-right: 1px solid rgb(202, 198, 198);
+    text-align: center;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+.section--feature .tiles ul li:last-child {
+    border-right: none;
+}
+.section--feature .tiles ul li img {
+    border-radius: 50%;
+    margin: 20px 0;
+}
+.section--feature .tiles ul li h3 {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+.section--feature .tiles ul li p {
+    font-size: 14px;
+    font-weight: 600;
+    text-align: right;
+    margin-bottom: 20px;
+}
